@@ -127,7 +127,7 @@ setup(
             "babel-vue-extractor"
         ],
     },
-    python_requires='>=3.7,<3.15',
+    python_requires='>=3.9,<3.15',
     tests_require=load_requirements("test_requirements.txt"),
     cmdclass={'test': PyTest},
     test_suite='',
@@ -147,8 +147,6 @@ setup(
         'License :: OSI Approved :: GNU General Public License (GPL)',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
